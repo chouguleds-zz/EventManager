@@ -187,7 +187,7 @@
 			"file": "Services/AccountServices/AuthenticationService.js",
 			"settings":
 			{
-				"buffer_size": 1036,
+				"buffer_size": 1026,
 				"line_ending": "Windows"
 			}
 		},
@@ -195,7 +195,7 @@
 			"file": "Routes/TestRoutes.js",
 			"settings":
 			{
-				"buffer_size": 422,
+				"buffer_size": 418,
 				"line_ending": "Windows"
 			}
 		},
@@ -204,6 +204,38 @@
 			"settings":
 			{
 				"buffer_size": 601,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Services/CustomerServices/CreateEventService.js",
+			"settings":
+			{
+				"buffer_size": 899,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Testing/CreateEventPage.js",
+			"settings":
+			{
+				"buffer_size": 526,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Routes/PrivateRoutes.js",
+			"settings":
+			{
+				"buffer_size": 1304,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "DataStore/DbFunctions/CustomerDbFunctions.js",
+			"settings":
+			{
+				"buffer_size": 767,
 				"line_ending": "Windows"
 			}
 		},
@@ -219,7 +251,7 @@
 			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 1010,
+				"buffer_size": 1006,
 				"line_ending": "Windows"
 			}
 		},
@@ -344,8 +376,13 @@
 	},
 	"expanded_folders":
 	[
+		"/C/Users/dchougule/Desktop/EventManager/DataStore",
 		"/C/Users/dchougule/Desktop/EventManager/DataStore/DbFunctions",
+		"/C/Users/dchougule/Desktop/EventManager/Services",
 		"/C/Users/dchougule/Desktop/EventManager/Services/AccountServices",
+		"/C/Users/dchougule/Desktop/EventManager/Services/CustomerServices",
+		"/C/Users/dchougule/Desktop/EventManager/Routes",
+		"/C/Users/dchougule/Desktop/EventManager/Testing",
 		"/C/Users/dchougule/Desktop/EventManager/Translators"
 	],
 	"file_history":
@@ -463,7 +500,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -492,7 +529,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -501,15 +538,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1036,
+						"buffer_size": 1026,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								489,
-								489
+								923,
+								923
 							]
 						],
 						"settings":
@@ -522,7 +559,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -531,15 +568,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 422,
+						"buffer_size": 418,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								341,
-								341
+								418,
+								418
 							]
 						],
 						"settings":
@@ -581,11 +618,131 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
+					"file": "Services/CustomerServices/CreateEventService.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								614,
+								622
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Testing/CreateEventPage.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Routes/PrivateRoutes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1304,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								213,
+								213
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "DataStore/DbFunctions/CustomerDbFunctions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								767,
+								767
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "DataStore/dbConnection/MongoClient.js",
 					"semi_transient": false,
 					"settings":
@@ -610,16 +767,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 9,
 					"file": "app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1010,
+						"buffer_size": 1006,
 						"regions":
 						{
 						},
@@ -635,15 +792,15 @@
 							"auto_complete": false,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
-						"translation.x": -0.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 10,
 					"file": "AppConfig.js",
 					"semi_transient": false,
 					"settings":
@@ -668,7 +825,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
