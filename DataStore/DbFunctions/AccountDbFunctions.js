@@ -9,7 +9,7 @@ exports.registerUserQuery = function(db, userObj, response, callback) {
 	});
 }
 
-/*exports.loginQuery = function(db, credentials, callback, response) {
+exports.loginQuery = function(db, credentials, callback, response) {
 	var collection = db.collection('UserCollection')
 	collection.findOne({"emailId": credentials.username,"password":credentials.password},{},function(err, result) {
 		if (err) {
@@ -17,4 +17,4 @@ exports.registerUserQuery = function(db, userObj, response, callback) {
 			}
 			callback(true, response,result);
 	});
-}*/
+}
