@@ -1,6 +1,6 @@
 var jwt = require('jsonwebtoken')
 var createEventService = require('../Services/CustomerServices/CreateEventService.js');
-//var addVendorService = require('../Services/VendorServices/AddVendorEventService.js');
+var addVendorEventService = require('../Services/VendorServices/AddVendorEventService.js');
 //var searchVendorService = require('../Services/CustomerServices/SearchVendorService.js');
 var appConfig = require(process.cwd() + '\\AppConfig')
 var Cookies = require('cookies')
@@ -33,5 +33,5 @@ exports.privateRouter.use(function(req, res, next) {
 })
 
 exports.privateRouter.post('/createEvent', createEventService.createEventHandler)
-//exports.privateRouter.post('/addVendorService', addVendorService.addServiceHandler)
+exports.privateRouter.post('/addVendorEventService', addVendorEventService.addServiceHandler)
 //exports.privateRouter.get('/searchVendors', searchVendorService.SearchVendorsHandler)
