@@ -5,3 +5,4 @@ var exports = module.exports = {}
 exports.testRouter = require('express').Router();
 exports.testRouter.get('/registerUserPage',registerUserPage.registerPageHandler)
 exports.testRouter.get('/createEventPage',createEventPage.createEventPageHandler)
+exports.testRouter.get('/AddVendorServicePage',createEventPage.createEventPageHandler)
