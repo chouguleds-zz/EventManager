@@ -3,7 +3,7 @@ var app = express();
 var appConfig = require('./AppConfig');
 var bodyParser = require('body-parser');
 var MongoClient = require('./DataStore/dbConnection/MongoClient.js')
-//var privateRoutes = require('./Routes/PrivateRoutes');
+var privateRoutes = require('./Routes/PrivateRoutes');
 var publicRoutes = require('./Routes/PublicRoutes');
 var testingRoutes = require('./Routes/TestRoutes');
 
@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({
 
 
 
-//app.use('/private', privateRoutes.privateRouter);
+app.use('/private', privateRoutes.privateRouter);
 app.use('/', publicRoutes.publicRouter);
 app.use('/test', testingRoutes.testRouter)
 
